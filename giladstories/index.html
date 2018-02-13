@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GILAD STORIES | a tal and lotem production</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script>
+        function randomElement(array){
+            return array[Math.floor(Math.random() * array.length)];
+        }
+
+        $(function(){
+            document.body.scrollTop = document.documentElement.scrollTop = 0;
+
+            $('#story').text(""
+                + "יום אחד ב"
+                + randomElement(['טיול לקולומביה', 'מסיבת טבע', 'פסטיבל', 'אשראם', 'אנגליה', 'אשקלון'])
+                + " פגשתי את "
+                + randomElement(['טל','בועז','לוטם','בני','מאשה','סליק','ליה','מעין','ויני','אלירן'])
+                + " ו"
+                + randomElement(['הלכנו לפגוש חבר','הלכנו לפגוש חברה','הלכנו להביא משהו','הלכנו לאשראם'])
+                + ". פתאום "
+                + randomElement(['כוכב נפל','יצא שד מהבקבוק','היה לי רעיון גאוני','חשבתי על רעיון לסטארט אפ','אני קולט משהו'])
+                + ". קיצר, אנחנו פוגשים שם מישהו שאני מכיר מ"
+                + randomElement(['הצבא','ערד','מטולה','הטיול בדרם אמריקה','התקופה שלי בגרינפיס','עין יהב'])
+                + " והוא מציע "
+                + randomElement(['לתת לי מיליון דולר','שנצא למסיבה','שנטוס לחו״ל','שאנהל את החברה שלו','שאהיה המנהיג של הכת שלו'])
+                + ". עכשיו, אני כולי בקטע. ואז "
+                + randomElement(['מגיעים חבורה של מקומיים','מגיעים מלא ערסים','באים חבר׳ה שלי מפעם','באה איזה בחורה שיצאתי איתה פעם','מגיעה איזה אחת שהייתי בקטע שלה'])
+                + ". ומה מסתבר?! כל זה בגלל שבדיוק מעניקים לי פרס על זה ש"
+                + randomElement(['אני כזה גלעד','אני עושה ביטבוקס','נתתי להם רעיון ששווה מיליון דולר','הם זוכרים שעזרתי להם פעם'])
+                + ". איזה כיף להיות גלעד!  "
+            );
+
+            $('#credit').text(''
+                + 'a tal and lotem '
+                + randomElement([
+                    'סתום ת׳פה שמן',
+                    'production',
+                    'לא יודע לעשן joint',
+                    'feature',
+                    'המהמהמהמהמהמהמהמהמהם',
+                    'two-year psychological experiment',
+                    'ציפיתי ליותר ממך',
+                    'השותף הסחחחחחחי',
+                    'joint',
+                    'collaboration',
+                    'remix',
+                    'טיפש',
+                    'ethnographic study',
+                    'forthcoming scientific paper',
+                    'startup',
+                    'brunch at chocolulu',
+                    'B2C',
+                    'רוצים אורגיה',
+                    'rogosaki',
+                    'campaign',
+                    'קורקינט חשמלי',
+                    'לילהלילהלילהליייייייייייייייייי',
+                    'פרצוף',
+                ])
+            );
+
+            var images = [
+                'IMG_1269.jpg',
+                'IMG_1601.jpg',
+                'IMG_1809.jpg',
+                'IMG_1880.jpg',
+                'IMG_1936.jpg',
+                'IMG_1969.jpg',
+                'IMG_2002.jpg',
+                'IMG_4528.jpg',
+                'IMG_4567.jpg',
+                'IMG_4642.jpg',
+                'IMG_6434.jpg',
+                'IMG_6698.jpg',
+                '1.jpg',
+                '2.jpg',
+                '3.jpg',
+                '4.jpg',
+                '5.jpg',
+                '6.jpg',
+                '7.jpg',
+                '8.jpg',
+                '9.jpg',
+            ];
+
+            $('body').css({
+                'background': 'url(' + randomElement(images)+ ') top right no-repeat',
+                'background-attachment': 'fixed',
+                'background-size':'cover'
+            });
+
+            $('*').click(function(){
+                window.location = window.location;
+            });
+        });
+    </script>
+    <style>
+        *{
+            cursor: pointer;
+        }
+        #container{
+            margin: 180px;
+            text-align: right;
+        }
+        #story{
+            text-align: right;
+            font-family: 'Helvetica';
+            font-size: 5em;
+            color: #F1F1F1;
+            background-color: dodgerblue;
+            line-height: 1.7em;
+        }
+        #credit{
+            text-align: right;
+            font-family: 'Helvetica';
+            font-size: 1.2em;
+            color: #F1F1F1;
+            background-color: indianred;
+            line-height: 1.7em;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <span id="story"></span>
+    <br/>
+    <br/>
+    <span id="credit">a tal and lotem production</span>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+
+
+</div>
+</body>
+</html>
