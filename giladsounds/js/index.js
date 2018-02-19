@@ -9,7 +9,7 @@ document.getElementById("id7").addEventListener("click", function (event) {docum
 document.getElementById("id8").addEventListener("click", function (event) {document.querySelector("audio[data-key=\"sound8\"]").play();}, false);
 document.getElementById("id9").addEventListener("click", function (event) {document.querySelector("audio[data-key=\"sound9\"]").play();}, false);
 document.getElementById("id10").addEventListener("click", function (event) {document.querySelector("audio[data-key=\"sound10\"]").play();}, false);
-document.getElementById("id12").addEventListener("click", function (event) {document.querySelector("audio[data-key=\"sound11\"]").play();}, false);
+document.getElementById("id11").addEventListener("click", function (event) {document.querySelector("audio[data-key=\"sound11\"]").play();}, false);
 document.getElementById("id12").addEventListener("click", function (event) {document.querySelector("audio[data-key=\"sound12\"]").play();}, false);
 document.getElementById("id13").addEventListener("click", function (event) {document.querySelector("audio[data-key=\"sound13\"]").play();}, false);
 document.getElementById("id14").addEventListener("click", function (event) {document.querySelector("audio[data-key=\"sound14\"]").play();}, false);
